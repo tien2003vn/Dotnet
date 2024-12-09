@@ -1,0 +1,53 @@
+.profileWrapper {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: var(--background);
+}
+
+.profileWrapper_Left {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    padding: 1rem;
+}
+
+.profileWrapper_Right {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    padding: 1rem;
+    gap: 1rem
+}
+
+.profileContainerRight_Container {
+    margin: 1.5rem;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: calc(-1* 1.5rem);
+    margin-right: .25rem;
+    margin-left: .25rem;
+}
+
+
+.profileMain {
+    display: flex;
+}
+
+.profileLeft {
+    flex: 3;
+    margin-right: 20px;
+}
+
+.profileRight {
+    flex: 1;
+}
+
+.profileContainerLeftFirst_3 {
+    flex: 1 1 auto;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    color: #a1a1a8;
+    background-color: #fff;
+    border-radius: 0.25rem;
+}

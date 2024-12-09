@@ -1,0 +1,87 @@
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem 1rem;
+    gap: 1rem;
+    .zone {
+        position: relative;
+        img {
+            width: 7rem;
+            height: 7rem;
+            border-radius: 50%;
+            border: 0.5px solid #333;
+            box-shadow: 0 0 10px rgba(0,0,0,0.4);
+        }
+        .isOnline {
+            position: absolute;
+            width: 2rem;
+            height: 2rem;
+            background-color: rgb(30, 191, 138);
+            border-radius: 50%;
+            right: 0.2rem;
+            border: 1.5px solid white;
+            // bottom: 0.2rem;
+        }
+    }
+
+    
+
+    .item {
+        cursor: pointer;
+        display: flex;
+        padding: 1rem 0.5rem;
+        gap: 1rem;
+        border: none;
+        background: none;
+        .content {
+            display: flex;
+            flex-direction: column;
+            flex: 1;
+            padding-top: 1.3rem;
+            strong {
+                text-align: start;
+            }
+            .lastmess {
+                display: flex;
+                width: 100%;
+                gap: 8px;
+                p {
+                    text-align: start;
+                    width: 17rem;
+                    // flex: 1;
+                    white-space: nowrap;
+                    overflow: hidden;
+                    text-overflow: ellipsis;
+                    opacity: 0.5;
+                    font-size: 1.3rem;
+                }
+                small {
+                    opacity: 0.5;
+                    display: flex;
+                    justify-content: start;
+                    align-items: center;
+                    flex: 1;
+                }
+            }
+
+            .NotRead {
+                opacity: 1;
+                font-size: medium;
+                font-weight: bolder;
+            }
+        }
+
+        .isRead {
+            width: 1.5rem;
+            height: 1.5rem;
+            border-radius: 50%;
+            background-color: rgb(87, 228, 228);
+            display: inline-block;
+        }
+
+        &:hover {
+            background-color: #d3cfcf;
+            border-radius: 10px;
+        }
+    }
+}

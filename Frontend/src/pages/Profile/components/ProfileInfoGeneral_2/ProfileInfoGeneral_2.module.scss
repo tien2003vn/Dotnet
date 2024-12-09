@@ -1,0 +1,25 @@
+.listInline {
+  display: flex;
+  justify-content: space-around;
+  justify-items: center;
+  list-style: none;
+  padding-left: 1rem;
+  padding-bottom: 1rem;
+  padding-top: 1rem;
+  margin: 0;
+  border-top: 1px solid #d3d3d3;
+  border-bottom: 1px solid #d3d3d3;
+}
+
+.listInlineItem {
+  display: flex;
+  align-items: center;
+  margin-right: 1rem;
+  color: #a1a1a8;
+}
+
+.icon {
+  margin-right: 0.25rem;
+  height: 1em;
+  width: 1em;
+}

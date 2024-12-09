@@ -1,0 +1,18 @@
+.imageWrapper {
+  height: 200px;
+  border-radius: 8px 8px 0 0;
+  overflow: hidden; /* Để bo góc ảnh */
+  cursor: pointer;
+  transition: opacity 0.3s ease;
+}
+
+.image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Đảm bảo ảnh lấp đầy khung */
+  transition: filter 0.3s ease;
+}
+
+.imageWrapper:hover .image {
+  filter: brightness(0.8); /* Hiệu ứng khi hover */
+}

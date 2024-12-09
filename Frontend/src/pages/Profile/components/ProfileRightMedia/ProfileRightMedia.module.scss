@@ -1,0 +1,81 @@
+.card {
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  color: #a1a1a8;
+  word-wrap: break-word;
+  background-color: #fff;
+  background-clip: border-box;
+  border: 1px solid var(--background);
+  border-radius: .25rem; 
+  padding: 1rem;
+}
+
+.cardHeader {
+  display: flex;
+  justify-content: space-between !important;
+  align-items: center;
+  border-radius: 0.4rem;
+  border: 0 !important;    
+  background-color: #fff;
+}
+
+.cardTitle {
+  color: #000;
+  font-size: 2.3rem;
+  font-weight: 700;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.cardBody {
+  position: relative !important;
+  flex: 1 1 auto;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.col {
+  flex: 0 0 33.333%;
+  max-width: 33.333%;
+  padding-right: 0.5rem;
+  padding-left: 0.5rem;
+  margin-top: 0.25rem;
+  margin-bottom: 0.25rem;
+  cursor: pointer;
+  position: relative;
+}
+
+.imageLink {
+  color: rgba(15, 11, 236, 1);
+  text-decoration: none;
+}
+
+.image {
+  border-radius: 0.4rem;
+  width: 100%; 
+  height: auto;
+  vertical-align: middle;
+}
+
+.button {
+  cursor: pointer;
+  color: #0f6fec;
+  background-color: transparent;
+  font-size: 1.5rem;
+  font-weight: 700;
+  line-height: 1.5;
+  vertical-align: middle;
+  border: 1px solid transparent;
+  border-radius: .2rem;
+  text-decoration: underline;
+}
+
+.button:hover {
+  color: #000; 
+  background-color: transparent;
+}
